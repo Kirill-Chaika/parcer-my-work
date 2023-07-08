@@ -9,12 +9,14 @@ const arrLinkSkay14 = [
   "https://skay.ua/uk/iphone-14/58756-apple-iphone-14-128gb-starlight.html",
   "https://skay.ua/uk/iphone-14/58754-apple-iphone-14-128gb-purple.html",
   "https://skay.ua/uk/iphone-14/61506-apple-iphone-14-128gb-yellow.html",
+
   "https://skay.ua/uk/iphone-14/58758-apple-iphone-14-256gb-blue.html",
   "https://skay.ua/uk/iphone-14/58762-apple-iphone-14-256gb-product-red.html",
   "https://skay.ua/uk/iphone-14/58760-apple-iphone-14-256gb-midnight.html",
   "https://skay.ua/uk/iphone-14/58761-apple-iphone-14-256gb-starlight.html",
   "https://skay.ua/uk/iphone-14/58759-apple-iphone-14-256gb-purple.html",
   "https://skay.ua/uk/iphone-14/61509-apple-iphone-14-256gb-yellow.html",
+
   "https://skay.ua/uk/iphone-14/58763-apple-iphone-14-512gb-blue.html",
   "https://skay.ua/uk/iphone-14/58767-apple-iphone-14-512gb-product-red.html",
   "https://skay.ua/uk/iphone-14/58765-apple-iphone-14-512gb-midnight.html",
@@ -29,12 +31,14 @@ const arrLinkJabko14 = [
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-128gb--starlight-",
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-128gb--pink-",
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-128gb--yellow-",
+
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-256gb--blue-",
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-256gb--midnight-",
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-256gb--red-",
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-256gb--starlight-",
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-256gb--pink-",
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-256gb--yellow-",
+
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-512gb--blue-",
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-512gb--midnight-",
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-512gb--red-",
@@ -64,6 +68,14 @@ const arrLinkMobilePlanet = [
   'https://mobileplanet.ua/apple-iphone-14-512gb-purple-mpx93-254648',
   'https://mobileplanet.ua/apple-iphone-14-512gb-yellow-mr513-272475'
 ];
+const arrLinkIstore14 = [
+  'https://www.istore.ua/catalog/item/apple-iphone-14-128-gb-blue/',
+  'https://www.istore.ua/catalog/item/apple-iphone-14-128-gb-red/',
+  'https://www.istore.ua/catalog/item/apple-iphone-14-128-gb-midnight/',
+  'https://www.istore.ua/catalog/item/apple-iphone-14-128-gb-starlight/',
+  'https://www.istore.ua/catalog/item/apple-iphone-14-128-gb-purple/',
+  'https://www.istore.ua/catalog/item/apple-iphone-14-128-gb-yellow/'
+];
 
   async function f() {
     const browser = await puppeteer.launch({ headless: false });
@@ -72,7 +84,7 @@ const arrLinkMobilePlanet = [
 
     for (let i = 0; i < arrLinkMobilePlanet.length; i += 1) {
       await page.goto(arrLinkMobilePlanet[i]);
-      await page.screenshot({ path: "img.png" });
+      const n = await page.$("#txt");
   
     let arr3 = await page.evaluate(() => {
       let text = document.querySelector(".price-value").innerText;
@@ -81,12 +93,12 @@ const arrLinkMobilePlanet = [
     });
     
     console.log(arr3)
-    }node 
+    } 
 
 
     for (let i = 0; i < arrLinkSkay14.length; i += 1) {
       await page.goto(arrLinkSkay14[i]);
-      await page.screenshot({ path: "img.png" });
+      const n = await page.$("#txt");
   
     let arr1 = await page.evaluate(() => {
       let text = document.querySelector("#our_price_display").innerText;
@@ -97,9 +109,24 @@ const arrLinkMobilePlanet = [
     console.log(arr1)
     }
 
+    for (let i = 0; i < arrLinkIstore14.length; i += 1) {
+      await page.goto(arrLinkIstore14[i]);
+      const n = await page.$("#txt");
+  
+    let arr4 = await page.evaluate(() => {
+      let text = document.querySelector(".product_price ").innerText;
+      let text2 = document.querySelector("h1").innerText;
+      return text2 + 'I: ' + text;
+    });
+    
+    console.log(arr4)
+    }
+
+
+
     for (let i = 0; i < arrLinkJabko14.length; i += 1) {
       await page.goto(arrLinkJabko14[i]);
-      await page.screenshot({ path: "img.png" });
+      const n = await page.$("#txt");
   
     let arr2 = await page.evaluate(() => {
       let text = document.querySelector(".price-new__uah").innerText;
