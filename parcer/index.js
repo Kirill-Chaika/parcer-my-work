@@ -69,6 +69,21 @@ const arrLinkMobilePlanet = [
     const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
 
+
+    for (let i = 0; i < arrLinkMobilePlanet.length; i += 1) {
+      await page.goto(arrLinkMobilePlanet[i]);
+      await page.screenshot({ path: "img.png" });
+  
+    let arr3 = await page.evaluate(() => {
+      let text = document.querySelector(".price-value").innerText;
+      let text2 = document.querySelector("h1").innerText;
+      return text2 + 'MP: ' + text;
+    });
+    
+    console.log(arr3)
+    }node 
+
+
     for (let i = 0; i < arrLinkSkay14.length; i += 1) {
       await page.goto(arrLinkSkay14[i]);
       await page.screenshot({ path: "img.png" });
@@ -95,18 +110,7 @@ const arrLinkMobilePlanet = [
     console.log(arr2)
     }
     
-    for (let i = 0; i < arrLinkMobilePlanet.length; i += 1) {
-      await page.goto(arrLinkMobilePlanet[i]);
-      await page.screenshot({ path: "img.png" });
-  
-    let arr3 = await page.evaluate(() => {
-      let text = document.querySelector(".price-value").innerText;
-      let text2 = document.querySelector("h1").innerText;
-      return text2 + 'MP: ' + text;
-    });
     
-    console.log(arr3)
-    }
     
   }
   f()
