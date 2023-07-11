@@ -184,50 +184,60 @@ const arrLinkIstore14Plus = [
     const page = await browser.newPage();
 
 
-    for (let i = 0; i < arrLinkMobilePlanet.length; i += 1) {
-      await page.goto(arrLinkMobilePlanet[i]);
+
+    
+
+
+    for (let i = 0; i < arrLinkMobilePlanet14Plus.length; i += 1) {
+      await page.goto(arrLinkMobilePlanet14Plus[i]);
       const n = await page.$("#txt");
   
     let arr3 = await page.evaluate(() => {
-      let text = document.querySelector(".price-value").innerText;
+      
       let text2 = document.querySelector("h1").innerText;
-      return text2 + 'MP: ' + text;
+      if(document.querySelector(".price-value") != null){
+        return text2 + 'MP: ' + document.querySelector(".price-value").innerText
+      } else {return undefined}
+      
     });
     
     console.log(arr3)
     } 
 
-
-    for (let i = 0; i < arrLinkSkay14.length; i += 1) {
-      await page.goto(arrLinkSkay14[i]);
+    for (let i = 0; i < arrLinkSkay14Plus.length; i += 1) {
+      await page.goto(arrLinkSkay14Plus[i]);
       const n = await page.$("#txt");
   
     let arr1 = await page.evaluate(() => {
-      let text = document.querySelector("#our_price_display").innerText;
+      
       let text2 = document.querySelector("h1").innerText;
-      return text2 + 'S: ' + text;
+      if(document.querySelector("#our_price_display") != null){
+        return text2 + 'S: ' + document.querySelector("#our_price_display").innerText
+      } else {return}
+      
     });
     
     console.log(arr1)
     }
 
-    for (let i = 0; i < arrLinkIstore14.length; i += 1) {
-      await page.goto(arrLinkIstore14[i]);
+    for (let i = 0; i < arrLinkIstore14Plus.length; i += 1) {
+      await page.goto(arrLinkIstore14Plus[i]);
       const n = await page.$("#txt");
   
     let arr4 = await page.evaluate(() => {
-      let text = document.querySelector(".product_price ").innerText;
+      
       let text2 = document.querySelector("h1").innerText;
-      return text2 + 'I: ' + text;
+      if(document.querySelector(".product_price ") != null){
+        return text2 + 'I: ' + document.querySelector(".product_price ").innerText
+      } else {return}
+      
     });
     
     console.log(arr4)
     }
 
-
-
-    for (let i = 0; i < arrLinkJabko14.length; i += 1) {
-      await page.goto(arrLinkJabko14[i]);
+    for (let i = 0; i < arrLinkJabko14Plus.length; i += 1) {
+      await page.goto(arrLinkJabko14Plus[i]);
       const n = await page.$("#txt");
   
     let arr2 = await page.evaluate(() => {
@@ -242,7 +252,6 @@ const arrLinkIstore14Plus = [
     console.log(arr2)
     }
     
-    
-    
   }
   f()
+
