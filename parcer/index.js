@@ -231,9 +231,12 @@ const arrLinkIstore14Plus = [
       const n = await page.$("#txt");
   
     let arr2 = await page.evaluate(() => {
-      let text = document.querySelector(".price-new__uah").innerText;
+      
       let text2 = document.querySelector("h1").innerText;
-      return text2 + 'J: ' + text;
+      if(document.querySelector(".price-new__uah") != null){
+        return text2 + 'J: ' + document.querySelector(".price-new__uah").innerText
+      } else {return text2}
+      
     });
     
     console.log(arr2)
