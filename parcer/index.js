@@ -535,7 +535,7 @@ const arrLinkJabko14ProMaxESIM = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-value") != null){
         return text2 + 'MP: ' + document.querySelector(".price-value").innerText
-      } else {return }
+      } else {return}
       
     });
     
@@ -565,7 +565,7 @@ const arrLinkJabko14ProMaxESIM = [
       let text3 = document.querySelector("h1").innerText;
       if(document.querySelector(".product_price ") != null){
         return text3 + 'I: ' + document.querySelector(".product_price ").innerText
-      } else {return}
+      } else {return text3}
       
     });
     
@@ -598,7 +598,7 @@ const arrLinkJabko14ProMaxESIM = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-value") != null){
         return text2 + 'MP: ' + document.querySelector(".price-value").innerText
-      } else {return }
+      } else {return text2}
       
     });
     
@@ -661,7 +661,7 @@ const arrLinkJabko14ProMaxESIM = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-value") != null){
         return text2 + 'MP: ' + document.querySelector(".price-value").innerText
-      } else {return }
+      } else {return text2}
       
     });
     
@@ -691,7 +691,7 @@ const arrLinkJabko14ProMaxESIM = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".product_price ") != null){
         return text2 + 'I: ' + document.querySelector(".product_price ").innerText
-      } else {return}
+      } else {return text2}
       
     });
     
@@ -714,7 +714,6 @@ const arrLinkJabko14ProMaxESIM = [
     }
 
 
-
     for (let i = 0; i < arrLinkMobilePlanet14ProMax.length; i += 1) {
       await page.goto(arrLinkMobilePlanet14ProMax[i]);
       const n = await page.$("#txt");
@@ -724,7 +723,7 @@ const arrLinkJabko14ProMaxESIM = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-value") != null){
         return text2 + 'MP: ' + document.querySelector(".price-value").innerText
-      } else {return }
+      } else {return text2}
       
     });
     
@@ -788,7 +787,7 @@ const arrLinkJabko14ProMaxESIM = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-value") != null){
         return text2 + 'MP: ' + document.querySelector(".price-value").innerText
-      } else {return }
+      } else {return text2}
       
     });
     
@@ -852,7 +851,7 @@ const arrLinkJabko14ProMaxESIM = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-value") != null){
         return text2 + 'MP: ' + document.querySelector(".price-value").innerText
-      } else {return }
+      } else {return text2}
       
     });
     
