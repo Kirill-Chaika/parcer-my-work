@@ -153,8 +153,7 @@ const arrLinkMobilePlanet14Plus = [
   'https://mobileplanet.ua/apple-iphone-14-plus-512gb-product-red-mq5f3-254627',
   'https://mobileplanet.ua/apple-iphone-14-plus-512gb-purple-mq5e3-254633',
   'https://mobileplanet.ua/apple-iphone-14-plus-512gb-blue-mq5g3-254630',
-  'https://mobileplanet.ua/apple-iphone-14-plus-512gb-midnight-mq593-254621',
-  'https://mobileplanet.ua/apple-iphone-14-plus-512gb-starlight-mq5d3-254624'
+  'https://mobileplanet.ua/apple-iphone-14-plus-512gb-midnight-mq593-254621'
 ];
 const arrLinkIstore14Plus = [
   '',
@@ -183,7 +182,69 @@ const arrLinkIstore14Plus = [
     const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
 
+    for (let i = 0; i < arrLinkMobilePlanet.length; i += 1) {
+      await page.goto(arrLinkMobilePlanet[i]);
+      const n = await page.$("#txt");
+  
+    let arr3 = await page.evaluate(() => {
+      
+      let text2 = document.querySelector("h1").innerText;
+      if(document.querySelector(".price-value") != null){
+        return text2 + 'MP: ' + document.querySelector(".price-value").innerText
+      } else {return }
+      
+    });
+    
+    console.log(arr3)
+    } 
 
+    for (let i = 0; i < arrLinkSkay14.length; i += 1) {
+      await page.goto(arrLinkSkay14[i]);
+      const n = await page.$("#txt");
+  
+    let arr1 = await page.evaluate(() => {
+      
+      let text2 = document.querySelector("h1").innerText;
+      if(document.querySelector("#our_price_display") != null){
+        return text2 + 'S: ' + document.querySelector("#our_price_display").innerText
+      } else {return}
+      
+    });
+    
+    console.log(arr1)
+    }
+
+    for (let i = 0; i < arrLinkIstore14.length; i += 1) {
+      await page.goto(arrLinkIstore14[i]);
+      const n = await page.$("#txt");
+  
+    let arr4 = await page.evaluate(() => {
+      
+      let text2 = document.querySelector("h1").innerText;
+      if(document.querySelector(".product_price ") != null){
+        return text2 + 'I: ' + document.querySelector(".product_price ").innerText
+      } else {return}
+      
+    });
+    
+    console.log(arr4)
+    }
+
+    for (let i = 0; i < arrLinkJabko14.length; i += 1) {
+      await page.goto(arrLinkJabko14[i]);
+      const n = await page.$("#txt");
+  
+    let arr2 = await page.evaluate(() => {
+      
+      let text2 = document.querySelector("h1").innerText;
+      if(document.querySelector(".price-new__uah") != null){
+        return text2 + 'J: ' + document.querySelector(".price-new__uah").innerText
+      } else {return text2}
+      
+    });
+    
+    console.log(arr2)
+    }
 
     
 
@@ -197,7 +258,7 @@ const arrLinkIstore14Plus = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-value") != null){
         return text2 + 'MP: ' + document.querySelector(".price-value").innerText
-      } else {return undefined}
+      } else {return }
       
     });
     
