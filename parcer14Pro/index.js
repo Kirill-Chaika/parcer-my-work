@@ -180,7 +180,7 @@ const arrLinkJabko14ProMax = [
 
 
   async function f() {
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch({ headless: 'new' });
     const page = await browser.newPage();
 
 
