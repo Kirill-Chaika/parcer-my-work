@@ -178,7 +178,7 @@ const arrLinkJabko14ProMaxESIM = [
 
 
   async function f() {
-    const browser = await puppeteer.launch({ headless: 'new' });
+    const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
 
 
