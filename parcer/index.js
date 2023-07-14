@@ -177,7 +177,6 @@ const arrLinkJabko14Plus = [
   'https://jabko.ua/rus/iphone/apple-iphone-14-plus/apple-iphone-14-plus-512gb--yellow-'
 ];
 
-let pappi = [];
   async function f() {
     const browser = await puppeteer.launch({ headless: 'new' });
     const page = await browser.newPage();
@@ -195,8 +194,9 @@ let pappi = [];
       
     });
     
-    console.log(pappi.push(arr3))
+    console.log(arr3)
     } 
+
     for (let i = 0; i < arrLinkSkay14.length; i += 1) {
       await page.goto(arrLinkSkay14[i]);
       const n = await page.$("#txt");
@@ -249,7 +249,7 @@ let pappi = [];
       await page.goto(arrLinkMobilePlanet14Plus[i]);
       const n = await page.$("#txt");
   
-    let arr3 = await page.evaluate(() => {
+    let arr5 = await page.evaluate(() => {
       
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-value") != null){
@@ -258,13 +258,13 @@ let pappi = [];
       
     });
     
-    console.log(arr3)
+    console.log(arr5)
     } 
     for (let i = 0; i < arrLinkSkay14Plus.length; i += 1) {
       await page.goto(arrLinkSkay14Plus[i]);
       const n = await page.$("#txt");
   
-    let arr1 = await page.evaluate(() => {
+    let arr6 = await page.evaluate(() => {
       
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector("#our_price_display") != null){
@@ -273,13 +273,13 @@ let pappi = [];
       
     });
     
-    console.log(arr1)
+    console.log(arr6)
     }
     for (let i = 0; i < arrLinkIstore14Plus.length; i += 1) {
       await page.goto(arrLinkIstore14Plus[i]);
       const n = await page.$("#txt");
   
-    let arr4 = await page.evaluate(() => {
+    let arr7= await page.evaluate(() => {
       
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".product_price ") != null){
@@ -288,22 +288,22 @@ let pappi = [];
       
     });
     
-    console.log(arr4)
+    console.log(arr7)
     }
     for (let i = 0; i < arrLinkJabko14Plus.length; i += 1) {
       await page.goto(arrLinkJabko14Plus[i]);
       const n = await page.$("#txt");
   
-    let arr2 = await page.evaluate(() => {
+    let arr8 = await page.evaluate(() => {
       
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-new__uah") != null){
         return text2 + 'J: ' + document.querySelector(".price-new__uah").innerText
-      } else {return text2}
+      } else {return text8}
       
     });
     
-    console.log(arr2)
+    console.log(arr8)
     }
 
   }
