@@ -44,7 +44,7 @@ const arrLinkSkay14 = [
   "https://skay.ua/uk/iphone-14/58764-apple-iphone-14-512gb-purple.html",
   "https://skay.ua/uk/iphone-14/58763-apple-iphone-14-512gb-blue.html",
   "https://skay.ua/uk/iphone-14/58765-apple-iphone-14-512gb-midnight.html",
-  "https://skay.ua/uk/iphone-14/61510-apple-iphone-14-512gb-yellow.html",
+  "https://skay.ua/uk/iphone-14/61510-apple-iphone-14-512gb-yellow.html"
 ];
 const arrLinkIstore14 = [
   'https://www.istore.ua/catalog/item/apple-iphone-14-128-gb-starlight/',
@@ -177,9 +177,9 @@ const arrLinkJabko14Plus = [
   'https://jabko.ua/rus/iphone/apple-iphone-14-plus/apple-iphone-14-plus-512gb--yellow-'
 ];
 
-
+let pappi = [];
   async function f() {
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch({ headless: 'new' });
     const page = await browser.newPage();
 
     for (let i = 0; i < arrLinkMobilePlanet.length; i += 1) {
@@ -191,11 +191,11 @@ const arrLinkJabko14Plus = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-value") != null){
         return text2 + 'MP: ' + document.querySelector(".price-value").innerText
-      } else {return text2}
+      } else {return}
       
     });
     
-    console.log(arr3)
+    console.log(pappi.push(arr3))
     } 
     for (let i = 0; i < arrLinkSkay14.length; i += 1) {
       await page.goto(arrLinkSkay14[i]);
