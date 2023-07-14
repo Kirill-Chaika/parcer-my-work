@@ -179,7 +179,7 @@ const arrLinkJabko14Plus = [
 
 
   async function f() {
-    const browser = await puppeteer.launch({ headless: 'new' });
+    const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
 
     for (let i = 0; i < arrLinkMobilePlanet.length; i += 1) {
@@ -191,7 +191,7 @@ const arrLinkJabko14Plus = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-value") != null){
         return text2 + 'MP: ' + document.querySelector(".price-value").innerText
-      } else {return}
+      } else {return text2}
       
     });
     
