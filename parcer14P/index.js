@@ -251,7 +251,7 @@ const arrLinkJabko14ProMax = [
       await page.goto(arrLinkMobilePlanet14ProMax[i]);
       const n = await page.$("#txt");
   
-    let arr3 = await page.evaluate(() => {
+    let arr5 = await page.evaluate(() => {
       
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-value") != null){
@@ -260,13 +260,13 @@ const arrLinkJabko14ProMax = [
       
     });
     
-    console.log(arr3)
+    console.log(arr5)
     }
     for (let i = 0; i < arrLinkSkay14ProMax.length; i += 1) {
       await page.goto(arrLinkSkay14ProMax[i]);
       const n = await page.$("#txt");
   
-    let arr1 = await page.evaluate(() => {
+    let arr6 = await page.evaluate(() => {
       
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector("#our_price_display") != null){
@@ -275,13 +275,13 @@ const arrLinkJabko14ProMax = [
       
     });
     
-    console.log(arr1)
+    console.log(arr6)
     }
     for (let i = 0; i < arrLinkIstore14ProMax.length; i += 1) {
       await page.goto(arrLinkIstore14ProMax[i]);
       const n = await page.$("#txt");
   
-    let arr4 = await page.evaluate(() => {
+    let arr7 = await page.evaluate(() => {
       
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".product_price ") != null){
@@ -290,22 +290,22 @@ const arrLinkJabko14ProMax = [
       
     });
     
-    console.log(arr4)
+    console.log(arr7)
     }
     for (let i = 0; i < arrLinkJabko14ProMax.length; i += 1) {
       await page.goto(arrLinkJabko14ProMax[i]);
       const n = await page.$("#txt");
   
-    let arr2 = await page.evaluate(() => {
+    let arr8 = await page.evaluate(() => {
       
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-new__uah") != null){
         return text2 + 'J: ' + document.querySelector(".price-new__uah").innerText
-      } else {return}
+      } else {return text2}
       
     });
     
-    console.log(arr2)
+    console.log(arr8)
     }
 
   }
