@@ -290,6 +290,7 @@ const arrLinkJabko14Plus = [
     
     console.log(arr7)
     }
+
     for (let i = 0; i < arrLinkJabko14Plus.length; i += 1) {
       await page.goto(arrLinkJabko14Plus[i]);
       const n = await page.$("#txt");
@@ -299,7 +300,7 @@ const arrLinkJabko14Plus = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-new__uah") != null){
         return text2 + 'J: ' + document.querySelector(".price-new__uah").innerText
-      } else {return text8}
+      } else {return text2}
       
     });
     
