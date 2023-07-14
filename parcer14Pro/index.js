@@ -180,7 +180,7 @@ const arrLinkJabko14ProMax = [
 
 
   async function f() {
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch({ headless: 'new' });
     const page = await browser.newPage();
 
 
@@ -224,7 +224,7 @@ const arrLinkJabko14ProMax = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".product_price ") != null){
         return text2 + 'I: ' + document.querySelector(".product_price ").innerText
-      } else {return text2}
+      } else {return}
       
     });
     
@@ -301,16 +301,12 @@ const arrLinkJabko14ProMax = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-new__uah") != null){
         return text2 + 'J: ' + document.querySelector(".price-new__uah").innerText
-      } else {return text2}
+      } else {return}
       
     });
     
     console.log(arr2)
     }
-
-
-
-
 
   }
   f()
