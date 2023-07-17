@@ -190,7 +190,7 @@ const arrLinkJabko14Plus = [
       let text2 = document.querySelector("h1").innerText;
       if(document.querySelector(".price-value") != null){
         return text2 + 'MP: ' + document.querySelector(".price-value").innerText
-      } else {return}
+      } else {return text2}
       
     });
     
