@@ -259,7 +259,6 @@ const arrLinkJabkoMac = [
     const page = await browser.newPage();
 
 
-
     for (let i = 0; i < arrLinkMobilePlanetMac.length; i += 1) {
       await page.goto(arrLinkMobilePlanetMac[i]);
       const n = await page.$("#txt");
@@ -290,39 +289,6 @@ const arrLinkJabkoMac = [
     
     console.log(arr1)
     }
-    for (let i = 0; i < arrLinkIstoreMac.length; i += 1) {
-      await page.goto(arrLinkIstoreMac[i]);
-      const n = await page.$("#txt");
-  
-    let arr4 = await page.evaluate(() => {
-      
-      let text2 = document.querySelector("h1").innerText;
-      if(document.querySelector(".product_price ") != null){
-        return text2 + 'I: ' + document.querySelector(".product_price ").innerText
-      } else {return}
-      
-    });
-    
-    console.log(arr4)
-    }
-    for (let i = 0; i < arrLinkJabkoMac.length; i += 1) {
-      await page.goto(arrLinkJabkoMac[i]);
-      const n = await page.$("#txt");
-  
-    let arr2 = await page.evaluate(() => {
-      
-      let text2 = document.querySelector("h1").innerText;
-      if(document.querySelector(".price-new__uah") != null){
-        return text2 + 'J: ' + document.querySelector(".price-new__uah").innerText
-      } else {return text2}
-      
-    });
-    
-    console.log(arr2)
-    }
-
-
-   
 
   }
   f()
