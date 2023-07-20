@@ -108,7 +108,6 @@ const arrLinkSkayMac = [
     'https://skay.ua/uk/macbook-pro-2023/60614-apple-macbook-pro-14-m2-max-chip-1tb-mphg3-2023-space-gray.html',
     'https://skay.ua/uk/macbook-pro-2023/60611-apple-macbook-pro-14-m2-pro-chip-512gb-mphh3-2023-silver.html',
     'https://skay.ua/uk/macbook-pro-2023/60615-apple-macbook-pro-14-m2-max-chip-1tb-mphk3-2023-silver.html',
-
     'https://skay.ua/uk/macbook-pro-2023/60616-apple-macbook-pro-16-m2-pro-chip-512gb-mnw83-2023-space-gray.html',
     'https://skay.ua/uk/macbook-pro-2023/60618-apple-macbook-pro-16-m2-pro-chip-1tb-mnw93-2023-space-gray.html',
     'https://skay.ua/uk/macbook-pro-2023/60620-apple-macbook-pro-16-m2-max-chip-1tb-mnwa3-2023-space-gray.html',
@@ -124,13 +123,6 @@ const arrLinkSkayMac = [
     'https://skay.ua/uk/macbook-air/64281-apple-macbook-air-15-m2-chip-512gb-mqkx3-2023-midnight.html',
     'https://skay.ua/uk/macbook-air/64282-apple-macbook-air-15-m2-chip-512gb-mqkv3-2023-starlight.html'
 ];
-
-
-
-
-
-
-
 
 
 
