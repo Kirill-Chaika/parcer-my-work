@@ -36,6 +36,7 @@ const arrLinkIstoreIPAD = [
   "https://www.istore.ua/catalog/item/apple-ipad-air-2022-64-gb-wi-fi-space-grey",
   "https://www.istore.ua/catalog/item/apple-ipad-air-2022-64-gb-wi-fi-blue",
   "https://www.istore.ua/catalog/item/apple-ipad-air-2022-64-gb-wi-fi-purple",
+  
   "https://www.istore.ua/catalog/item/apple-ipad-air-2022-64-gb-wi-fi-pink",
   "https://www.istore.ua/catalog/item/apple-ipad-air-2022-64-gb-wi-fi-starlight",
 
