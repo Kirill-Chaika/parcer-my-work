@@ -28,16 +28,16 @@ const arrLinkMobilePlanet = [
     const browser = await puppeteer.launch({ headless: 'new' });
     const page = await browser.newPage();
 
-    for (let i = 0; i < arrLinkMobilePlanet.length; i += 1) {
-      await page.goto(arrLinkMobilePlanet[i]);
+    for (let i = 0; i < mass.length; i += 1) {
+      await page.goto(mass[i]);
       const n = await page.$("#txt");
   
     let arr3 = await page.evaluate(() => {
       
-      let text2 = document.querySelector("h1").innerText;
-      if(document.querySelector(".price-value") != null){
+      let text2 = document.querySelector(namePosission).innerText;
+      if(document.querySelector(priceValue) != null){
         return text2 + 'MP: ' + document.querySelector(".price-value").innerText
-      } else {return}
+      } else {return text2}
       
     });
     console.log(arr3)
@@ -47,5 +47,7 @@ const arrLinkMobilePlanet = [
     
 
   }
-  f()
-  console.log(pappi)
+  f(".price-value" ,"h1" ,arrLinkMobilePlanet)
+ 
+
+  
