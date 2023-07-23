@@ -22,7 +22,7 @@ const arrLinkMobilePlanet = [
     'https://mobileplanet.ua/apple-iphone-14-512gb-midnight-mpww3-254636',
     'https://mobileplanet.ua/apple-iphone-14-512gb-yellow-mr513-272475'
   ];
-  // 
+
   async function f(mass, priceValue, namePosission ) {
     const browser = await puppeteer.launch({ headless: 'new' });
     const page = await browser.newPage();
@@ -33,9 +33,9 @@ const arrLinkMobilePlanet = [
   
     let arr3 = await page.evaluate(() => {
       
-      let text2 = document.querySelector('namePosission').innerText;
-      if(document.querySelector('priceValue') != null){
-        return text2 + 'MP: ' + document.querySelector('priceValue').innerText
+      let text2 = document.querySelector(namePosission).innerText;
+      if(document.querySelector(priceValue) != null){
+        return text2 + 'MP: ' + document.querySelector(priceValue).innerText
       } else {return text2}
       
     });
@@ -46,7 +46,7 @@ const arrLinkMobilePlanet = [
     
 
   }
-  f(arrLinkMobilePlanet ,".price-value" ,"h1")
+  f(arrLinkMobilePlanet ,".price-value" ,'h1')
  
 
   
