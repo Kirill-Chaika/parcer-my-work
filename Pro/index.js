@@ -33,9 +33,9 @@ const arrLinkMobilePlanet = [
   
     let arr3 = await page.evaluate(() => {
       
-      let text2 = document.querySelector(namePosission).innerText;
-      if(document.querySelector(priceValue) != null){
-        return text2 + 'MP: ' + document.querySelector(".price-value").innerText
+      let text2 = document.querySelector('namePosission').innerText;
+      if(document.querySelector('priceValue') != null){
+        return text2 + 'MP: ' + document.querySelector('priceValue').innerText
       } else {return text2}
       
     });
@@ -46,7 +46,7 @@ const arrLinkMobilePlanet = [
     
 
   }
-  f(".price-value" ,"h1" ,arrLinkMobilePlanet)
+  f(arrLinkMobilePlanet ,".price-value" ,"h1")
  
 
   
