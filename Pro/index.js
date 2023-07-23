@@ -22,9 +22,8 @@ const arrLinkMobilePlanet = [
     'https://mobileplanet.ua/apple-iphone-14-512gb-midnight-mpww3-254636',
     'https://mobileplanet.ua/apple-iphone-14-512gb-yellow-mr513-272475'
   ];
-
-  let pappi = {};
-  async function f() {
+  // 
+  async function f(mass, priceValue, namePosission ) {
     const browser = await puppeteer.launch({ headless: 'new' });
     const page = await browser.newPage();
 
