@@ -163,7 +163,7 @@ const arrLinkSkayAWS = [
   "https://skay.ua/uk/apple-watch-se/57912-apple-watch-se-44mm-gpslte-space-gray-aluminum-case-w-midnight-sport-band-mkrr3.html?search_query=MKRR3&results=1",
 
   "https://skay.ua/uk/apple-watch-ultra/58848-apple-watch-ultra-49mm-gpslte-titanium-case-with-white-ocean-band-mnh83mnhf3.html?search_query=MNH83&results=1",
-  "https://skay.ua/uk/module/categorysearch/catesearch?controller=catesearch&search_query=MNHG3&fc=module&module=categorysearch&search_category=all&submit_search=",
+  "https://skay.ua/uk/apple-watch-ultra/58849-apple-watch-ultra-49mm-gpslte-titanium-case-with-yellow-ocean-band-mnhg3.html?search_query=MNHG3&results=1",
   "https://skay.ua/uk/apple-watch-ultra/58847-apple-watch-ultra-49mm-gpslte-titanium-case-with-midnight-ocean-band-mqet3mqfk3.html?search_query=MQET3&results=1",
   "https://skay.ua/uk/apple-watch-ultra/58852-apple-watch-ultra-49mm-gpslte-titanium-case-with-bluegray-trail-loop-sm-mnhe3mnhl3.html?search_query=MNHE3&results=1",
   "https://skay.ua/uk/apple-watch-ultra/58853-apple-watch-ultra-49mm-gpslte-titanium-case-with-bluegray-trail-loop-ml-mqej3mqf33.html?search_query=MQEJ3&results=1",
