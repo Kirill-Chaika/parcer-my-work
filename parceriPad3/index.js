@@ -36,7 +36,7 @@ const arrLinkIstoreIPAD = [
   "https://www.istore.ua/catalog/item/apple-ipad-air-2022-64-gb-wi-fi-space-grey",
   "https://www.istore.ua/catalog/item/apple-ipad-air-2022-64-gb-wi-fi-blue",
   "https://www.istore.ua/catalog/item/apple-ipad-air-2022-64-gb-wi-fi-purple",
-  
+
   "https://www.istore.ua/catalog/item/apple-ipad-air-2022-64-gb-wi-fi-pink",
   "https://www.istore.ua/catalog/item/apple-ipad-air-2022-64-gb-wi-fi-starlight",
 
@@ -156,7 +156,7 @@ const arrLinkIstoreIPAD = [
   "https://www.istore.ua/catalog/item/ipad-mini-6-2021-256-gb-wi-fi-lte-space-gray",
   "https://www.istore.ua/catalog/item/apple-ipad-mini-6-8-3-2021-wi-fi-lte-256gb-purple",
   "https://www.istore.ua/catalog/item/apple-ipad-mini-6-8-3-2021-wi-fi-lte-256gb-pink",
-  "https://www.istore.ua/catalog/item/apple-ipad-mini-6-8-3-2021-wi-fi-lte-256gb-starlight"
+  "https://www.istore.ua/catalog/item/apple-ipad-mini-6-8-3-2021-wi-fi-lte-256gb-starlight",
 ];
 const arrLinkJabkoIPAD = [
   "https://jabko.ua/rus/ipad/apple-ipad/apple-ipad-10-2--2021-/planshet-apple-ipad-10-2-64gb--wi-fi--silver--2021",
@@ -311,7 +311,7 @@ const arrLinkJabkoIPAD = [
   "https://jabko.ua/rus/ipad/apple-ipad-mini/ipad-mini-6/apple-ipad-mini-6-256gb--wi-fi---lte--space-gray-",
   "https://jabko.ua/rus/ipad/apple-ipad-mini/ipad-mini-6/apple-ipad-mini-6-256gb--wi-fi---lte--purple-",
   "https://jabko.ua/rus/ipad/apple-ipad-mini/ipad-mini-6/apple-ipad-mini-6-256gb--wi-fi---lte--pink-",
-  "https://jabko.ua/rus/ipad/apple-ipad-mini/ipad-mini-6/apple-ipad-mini-6-256gb--wi-fi---lte--starlight-"
+  "https://jabko.ua/rus/ipad/apple-ipad-mini/ipad-mini-6/apple-ipad-mini-6-256gb--wi-fi---lte--starlight-",
 ];
 
 async function f() {
