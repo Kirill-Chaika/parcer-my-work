@@ -329,7 +329,7 @@ async function f() {
           text2 + "I: " + document.querySelector(".product_price ").innerText
         );
       } else {
-        return text2;
+        return;
       }
     });
 
