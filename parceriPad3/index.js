@@ -315,7 +315,7 @@ const arrLinkJabkoIPAD = [
 ];
 
 async function f() {
-  const browser = await puppeteer.launch({ headless: "new" });
+  const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
 
   for (let i = 0; i < arrLinkIstoreIPAD.length; i += 1) {
