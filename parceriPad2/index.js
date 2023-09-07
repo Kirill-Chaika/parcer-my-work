@@ -155,7 +155,7 @@ const arrLinkSkayIPAD = [
   "https://skay.ua/uk/ipad-mini-6-2021/53863-apple-ipad-mini-83-6-gen-256gb-wi-fi4g-2021-space-gray-mk8f3.html",
   "https://skay.ua/uk/ipad-mini-6-2021/53862-apple-ipad-mini-83-6-gen-256gb-wi-fi4g-2021-purple-mk8k3.html",
   "https://skay.ua/uk/ipad-mini-6-2021/53861-apple-ipad-mini-83-6-gen-256gb-wi-fi4g-2021-pink-mlx93.html",
-  "https://skay.ua/uk/ipad-mini-6-2021/53860-apple-ipad-mini-83-6-gen-256gb-wi-fi4g-2021-starlight-mk8h3.html"
+  "https://skay.ua/uk/ipad-mini-6-2021/53860-apple-ipad-mini-83-6-gen-256gb-wi-fi4g-2021-starlight-mk8h3.html",
 ];
 
 async function f() {

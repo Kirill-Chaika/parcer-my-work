@@ -21,7 +21,7 @@ const arrLinkMobilePlanet = [
   "https://mobileplanet.ua/apple-iphone-14-512gb-purple-mpx93-254648",
   "https://mobileplanet.ua/apple-iphone-14-512gb-blue-mpxn3-254645",
   "https://mobileplanet.ua/apple-iphone-14-512gb-midnight-mpww3-254636",
-  "https://mobileplanet.ua/apple-iphone-14-512gb-yellow-mr513-272475"
+  "https://mobileplanet.ua/apple-iphone-14-512gb-yellow-mr513-272475",
 ];
 const arrLinkSkay14 = [
   "https://skay.ua/uk/iphone-14/58756-apple-iphone-14-128gb-starlight.html",
@@ -43,7 +43,7 @@ const arrLinkSkay14 = [
   "https://skay.ua/uk/iphone-14/58764-apple-iphone-14-512gb-purple.html",
   "https://skay.ua/uk/iphone-14/58763-apple-iphone-14-512gb-blue.html",
   "https://skay.ua/uk/iphone-14/58765-apple-iphone-14-512gb-midnight.html",
-  "https://skay.ua/uk/iphone-14/61510-apple-iphone-14-512gb-yellow.html"
+  "https://skay.ua/uk/iphone-14/61510-apple-iphone-14-512gb-yellow.html",
 ];
 const arrLinkIstore14 = [
   "https://www.istore.ua/catalog/item/apple-iphone-14-128-gb-starlight/",
@@ -65,7 +65,7 @@ const arrLinkIstore14 = [
   "https://www.istore.ua/catalog/item/apple-iphone-14-512-gb-purple/",
   "https://www.istore.ua/catalog/item/apple-iphone-14-512-gb-blue/",
   "https://www.istore.ua/catalog/item/apple-iphone-14-512-gb-midnight/",
-  "https://www.istore.ua/catalog/item/apple-iphone-14-512-gb-yellow/"
+  "https://www.istore.ua/catalog/item/apple-iphone-14-512-gb-yellow/",
 ];
 const arrLinkJabko14 = [
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-128gb--starlight-",
@@ -85,7 +85,7 @@ const arrLinkJabko14 = [
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-512gb--pink-",
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-512gb--blue-",
   "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-512gb--midnight-",
-  "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-512gb--yellow-"
+  "https://jabko.ua/rus/iphone/apple-iphone-14/apple-iphone-14-512gb--yellow-",
 ];
 
 const arrLinkMobilePlanet14Plus = [
@@ -107,7 +107,7 @@ const arrLinkMobilePlanet14Plus = [
   "https://mobileplanet.ua/apple-iphone-14-plus-512gb-product-red-mq5f3-254627",
   "https://mobileplanet.ua/apple-iphone-14-plus-512gb-purple-mq5e3-254633",
   "https://mobileplanet.ua/apple-iphone-14-plus-512gb-blue-mq5g3-254630",
-  "https://mobileplanet.ua/apple-iphone-14-plus-512gb-midnight-mq593-254621"
+  "https://mobileplanet.ua/apple-iphone-14-plus-512gb-midnight-mq593-254621",
 ];
 const arrLinkSkay14Plus = [
   "https://skay.ua/uk/iphone-14-plus/58772-apple-iphone-14-plus-128gb-starlight.html",
@@ -129,7 +129,7 @@ const arrLinkSkay14Plus = [
   "https://skay.ua/uk/iphone-14-plus/58816-apple-iphone-14-plus-512gb-purple.html",
   "https://skay.ua/uk/iphone-14-plus/58779-apple-iphone-14-plus-512gb-blue.html",
   "https://skay.ua/uk/iphone-14-plus/58780-apple-iphone-14-plus-512gb-midnight.html",
-  "https://skay.ua/uk/iphone-14-plus/61512-apple-iphone-14-plus-512gb-yellow.html"
+  "https://skay.ua/uk/iphone-14-plus/61512-apple-iphone-14-plus-512gb-yellow.html",
 ];
 const arrLinkIstore14Plus = [
   "https://www.istore.ua/catalog/item/apple-iphone-14-plus-128-gb-starlight/",
@@ -151,7 +151,7 @@ const arrLinkIstore14Plus = [
   "https://www.istore.ua/catalog/item/apple-iphone-14-plus-512-gb-purple/",
   "https://www.istore.ua/catalog/item/apple-iphone-14-plus-512-gb-blue/",
   "https://www.istore.ua/catalog/item/apple-iphone-14-plus-512-gb-midnight/",
-  "https://www.istore.ua/catalog/item/apple-iphone-14-plus-512-gb-yellow/"
+  "https://www.istore.ua/catalog/item/apple-iphone-14-plus-512-gb-yellow/",
 ];
 const arrLinkJabko14Plus = [
   "https://jabko.ua/rus/iphone/apple-iphone-14-plus/apple-iphone-14-mini-128gb--starlight-",
@@ -173,7 +173,7 @@ const arrLinkJabko14Plus = [
   "https://jabko.ua/rus/iphone/apple-iphone-14-plus/apple-iphone-14-mini-512gb--pink-",
   "https://jabko.ua/rus/iphone/apple-iphone-14-plus/apple-iphone-14-mini-512gb--blue-",
   "https://jabko.ua/rus/iphone/apple-iphone-14-plus/apple-iphone-14-mini-512gb--midnight-",
-  "https://jabko.ua/rus/iphone/apple-iphone-14-plus/apple-iphone-14-plus-512gb--yellow-"
+  "https://jabko.ua/rus/iphone/apple-iphone-14-plus/apple-iphone-14-plus-512gb--yellow-",
 ];
 
 async function f() {
