@@ -331,6 +331,7 @@ async function f() {
     });
 
     console.log(arr3);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkSkayAWS.length; i += 1) {
     await page.goto(arrLinkSkayAWS[i]);
@@ -348,6 +349,7 @@ async function f() {
     });
 
     console.log(arr1);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkIstoreAWS.length; i += 1) {
     await page.goto(arrLinkIstoreAWS[i]);
@@ -365,6 +367,7 @@ async function f() {
     });
 
     console.log(arr4);
+    await page.setDefaultNavigationTimeout(0);
   }
   for (let i = 0; i < arrLinkJabkoAWS.length; i += 1) {
     await page.goto(arrLinkJabkoAWS[i]);
@@ -382,6 +385,7 @@ async function f() {
     });
 
     console.log(arr2);
+    await page.setDefaultNavigationTimeout(0);
   }
 }
 f();
