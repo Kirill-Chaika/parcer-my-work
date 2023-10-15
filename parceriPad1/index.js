@@ -115,7 +115,7 @@ const arrLinkMobilePlanetIPAD = [
   "https://mobileplanet.ua/apple-ipad-mini-6-8-3-2021-wi-fi-lte-256-228430",
   "https://mobileplanet.ua/apple-ipad-mini-6-8-3-2021-wi-fi-lte-256-228429",
   "https://mobileplanet.ua/apple-ipad-mini-6-8-3-2021-wi-fi-lte-256-228428",
-  "https://mobileplanet.ua/apple-ipad-mini-6-8-3-2021-wi-fi-lte-256-228431",
+  "https://mobileplanet.ua/apple-ipad-mini-6-8-3-2021-wi-fi-lte-256-228431"
 ];
 
 async function f() {
