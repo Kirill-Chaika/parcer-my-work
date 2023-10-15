@@ -90,7 +90,7 @@ const arrLinkMobilePlanetAWS = [
   "https://mobileplanet.ua/apple-watch-ultra-gps-cellular-49mm-titanium-case-254763",
   "https://mobileplanet.ua/apple-watch-ultra-gps-cellular-49mm-titanium-case-254764",
   "https://mobileplanet.ua/apple-watch-ultra-gps-cellular-49mm-titanium-case-254765",
-  "https://mobileplanet.ua/apple-watch-ultra-gps-cellular-49mm-titanium-case-254766",
+  "https://mobileplanet.ua/apple-watch-ultra-gps-cellular-49mm-titanium-case-254766"
 ];
 const arrLinkSkayAWS = [
   "https://skay.ua/uk/series-7/54018-apple-watch-series-7-41mm-gps-starlight-aluminum-case-w-starlight-sport-band-mkmy3.html?search_query=MKMY3&results=3",
@@ -179,7 +179,7 @@ const arrLinkSkayAWS = [
   "https://skay.ua/uk/apple-watch-ultra/58838-apple-watch-ultra-49mm-gpslte-titanium-case-with-green-alpine-loop-large-mqex3mqfp3.html?search_query=MQEX3&results=1",
   "https://skay.ua/uk/apple-watch-ultra/58843-apple-watch-ultra-49mm-gpslte-titanium-case-with-starlight-alpine-loop-small-mqey3mqfq3.html?search_query=MQEY3&results=1",
   "https://skay.ua/uk/apple-watch-ultra/58842-apple-watch-ultra-49mm-gpslte-titanium-case-with-starlight-alpine-loop-medium-mqfr3mqf03.html?search_query=MQFR3&results=1",
-  "https://skay.ua/uk/apple-watch-ultra/58841-apple-watch-ultra-49mm-gpslte-titanium-case-with-starlight-alpine-loop-large-mqft3mqf13.html?search_query=MQFT3&results=1",
+  "https://skay.ua/uk/apple-watch-ultra/58841-apple-watch-ultra-49mm-gpslte-titanium-case-with-starlight-alpine-loop-large-mqft3mqf13.html?search_query=MQFT3&results=1"
 ];
 const arrLinkIstoreAWS = [
   "https://www.istore.ua/catalog/item/apple-watch-series-7-41mm-starlight-aluminum-case-with-starlight-sport-band/",
@@ -230,7 +230,7 @@ const arrLinkIstoreAWS = [
   "https://www.istore.ua/catalog/item/apple-watch-ultra-gps-cellular-49mm-titanium-case-with-green-alpine-loop-medium/",
   "https://www.istore.ua/catalog/item/apple-watch-ultra-gps-cellular-49mm-titanium-case-with-starlight-alpine-loop-small/",
   "https://www.istore.ua/catalog/item/apple-watch-ultra-gps-cellular-49mm-titanium-case-with-starlight-alpine-loop-medium/",
-  "https://www.istore.ua/catalog/item/apple-watch-ultra-gps-cellular-49mm-titanium-case-with-starlight-alpine-loop-large/",
+  "https://www.istore.ua/catalog/item/apple-watch-ultra-gps-cellular-49mm-titanium-case-with-starlight-alpine-loop-large/"
 ];
 const arrLinkJabkoAWS = [
   "https://jabko.ua/rus/apple-watch/apple-watch-series-7/apple-watch-series-7-41mm-starlight-aluminum-case-white-spor",
@@ -308,7 +308,7 @@ const arrLinkJabkoAWS = [
   "https://jabko.ua/rus/apple-watch/apple-watch-series-8-pro/apple-watch-ultra-49mm-gps---lte-titanium-case-with-green-alpine-loop-large--mqfp3-",
   "https://jabko.ua/rus/apple-watch/apple-watch-series-8-pro/apple-watch-ultra-49mm-titanium-case-with-starlight-alpine-loop",
   "https://jabko.ua/rus/apple-watch/apple-watch-series-8-pro/apple-watch-ultra-49mm-gps---lte-titanium-case-with-starlight-alpine-loop-medium--mqfr3-",
-  "https://jabko.ua/rus/apple-watch/apple-watch-series-8-pro/apple-watch-ultra-49mm-gps---lte-titanium-case-with-starlight-alpine-loop-large--mqft3-",
+  "https://jabko.ua/rus/apple-watch/apple-watch-series-8-pro/apple-watch-ultra-49mm-gps---lte-titanium-case-with-starlight-alpine-loop-large--mqft3-"
 ];
 
 async function f() {
